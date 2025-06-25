@@ -34,6 +34,20 @@ const peliculas = {
         duracion: "102 min",
         videoId: "CaimKeDcudo",
         sinopsis: "La película de Walt Disney Animation Studios cuenta la historia de los Madrigal, una familia extraordinaria que vive escondida en las montañas de Colombia, en una casa mágica, en un pueblo vibrante, en un lugar maravilloso conocido como un Encanto."
+    },
+    guerramundialz: {
+        titulo: "Guerra Mundial Z",
+        genero: "Acción, Aventura, Thriller",
+        duracion: "116 min",
+        videoId: "tsC_lkyp6GA",
+        sinopsis: "Cuando una pandemia de zombis amenaza con destruir a la humanidad, un ex-investigador de Naciones Unidas es obligado a regresar al servicio para intentar descubrir la fuente de la infección."
+    },
+    estacionzombie: {
+        titulo: "Estación Zombie",
+        genero: "Terror, Acción, Suspenso",
+        duracion: "102 min",
+        videoId: "IEmBxtpbWs4",
+        sinopsis: "Un brote viral misterioso pone a Corea en estado de emergencia. Sok-woo y su hija Soo-ahn suben al KTX, un tren rápido que une los 442 km que separan Seúl de Busan, una ciudad que se defiende con éxito de la epidemia. Sin embargo, justo en el momento de su partida, la estación es invadida por zombis que matan al conductor del tren y a otros pasajeros."
     }
 };
 
