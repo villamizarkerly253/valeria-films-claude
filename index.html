@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos básicos para la página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valeria Films - Cartelera</title>
+    
+    <!-- Enlace a nuestro archivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Fuente moderna de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Iconos de Font Awesome para el icono de casa -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Encabezado principal de la página -->
+    <header class="header">
+        <!-- Contenedor para centrar el contenido -->
+        <div class="container">
+            <!-- Logo y nombre del cine -->
+            <h1 class="logo">
+                <i class="fas fa-film"></i>
+                VALERIA FILMS
+            </h1>
+            
+            <!-- Navegación principal -->
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">
+                    <i class="fas fa-home"></i>
+                    Inicio
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="main">
+        <div class="container">
+            <!-- Título de la sección -->
+            <section class="hero">
+                <h2 class="hero-title">Películas en Cartelera</h2>
+                <p class="hero-subtitle">Disfruta de los mejores estrenos</p>
+            </section>
+
+            <!-- Grid de películas -->
+            <section class="movies-grid">
+                <!-- Película 1: Spider-Man -->
+                <div class="movie-card" data-movie="spiderman">
+                    <div class="movie-poster">
+                        <img src="images/spiderman.jpg" alt="Spider-Man: No Way Home">
+                        <div class="movie-overlay">
+                            <button class="trailer-btn" onclick="verTrailer('dM2hrHNJHiE', 'Spider-Man: No Way Home')">
+                                <i class="fas fa-play"></i>
+                                Ver Tráiler
+                            </button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Spider-Man: No Way Home</h3>
+                        <p class="movie-genre">Acción, Aventura, Sci-Fi</p>
+                        <p class="movie-duration">148 min</p>
+                    </div>
+                </div>
+
+                <!-- Película 2: Dune -->
+                <div class="movie-card" data-movie="dune">
+                    <div class="movie-poster">
+                        <img src="images/dune.jpg" alt="Dune">
+                        <div class="movie-overlay">
+                            <button class="trailer-btn" onclick="verTrailer('n9xhJrPXop4', 'Dune')">
+                                <i class="fas fa-play"></i>
+                                Ver Tráiler
+                            </button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Dune</h3>
+                        <p class="movie-genre">Sci-Fi, Drama, Aventura</p>
+                        <p class="movie-duration">155 min</p>
+                    </div>
+                </div>
+
+                <!-- Película 3: No Time to Die -->
+                <div class="movie-card" data-movie="bond">
+                    <div class="movie-poster">
+                        <img src="images/bond.jpg" alt="No Time to Die">
+                        <div class="movie-overlay">
+                            <button class="trailer-btn" onclick="verTrailer('BIhNsAtPbPI', 'No Time to Die')">
+                                <i class="fas fa-play"></i>
+                                Ver Tráiler
+                            </button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">No Time to Die</h3>
+                        <p class="movie-genre">Acción, Aventura, Thriller</p>
+                        <p class="movie-duration">163 min</p>
+                    </div>
+                </div>
+
+                <!-- Película 4: Encanto -->
+                <div class="movie-card" data-movie="encanto">
+                    <div class="movie-poster">
+                        <img src="images/encanto.jpg" alt="Encanto">
+                        <div class="movie-overlay">
+                            <button class="trailer-btn" onclick="verTrailer('CaimKeDcudo', 'Encanto')">
+                                <i class="fas fa-play"></i>
+                                Ver Tráiler
+                            </button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Encanto</h3>
+                        <p class="movie-genre">Animación, Familia, Comedia</p>
+                        <p class="movie-duration">102 min</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Valeria Films. Una experiencia cinematográfica única.</p>
+        </div>
+    </footer>
+
+    <!-- Enlace a nuestro archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
